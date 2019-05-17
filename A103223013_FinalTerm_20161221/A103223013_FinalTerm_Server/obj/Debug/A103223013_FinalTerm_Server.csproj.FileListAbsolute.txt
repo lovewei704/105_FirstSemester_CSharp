@@ -1,0 +1,3 @@
+C:\Users\w401\Desktop\A103223013_FinalTerm_20161221\A103223013_FinalTerm_Server\bin\Debug\A103223013_FinalTerm_20161221.exe.config
+C:\Users\w401\Desktop\A103223013_FinalTerm_20161221\A103223013_FinalTerm_Server\obj\Debug\A103223013_FinalTerm_20161221.exe
+C:\Users\w401\Desktop\A103223013_FinalTerm_20161221\A103223013_FinalTerm_Server\obj\Debug\A103223013_FinalTerm_20161221.pdb
