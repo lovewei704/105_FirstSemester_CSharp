@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C8EFE62-1A9F-4CBE-B220-2C1096070BAA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FinalProject</RootNamespace>
+    <AssemblyName>FinalProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FinalProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinalProject.Designer.cs">
+      <DependentUpon>FinalProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="illustrate_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="illustrate_Form.Designer.cs">
+      <DependentUpon>illustrate_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FinalProject.resx">
+      <DependentUpon>FinalProject.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="illustrate_Form.resx">
+      <DependentUpon>illustrate_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\standR1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shelter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\standR2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\standB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\standB2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\runR1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\runR2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\runB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\runB2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\throwR1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\throwR2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\throwB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\throwB2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\block.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulletBomb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\change.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freeze.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invincible.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\min.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\illustrate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowKey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spacebar.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
