@@ -1,0 +1,9 @@
+c:\users\w401\documents\visual studio 2013\Projects\A103223013_Midterm\A103223013_Midterm\bin\Debug\A103223013_Midterm.exe.config
+c:\users\w401\documents\visual studio 2013\Projects\A103223013_Midterm\A103223013_Midterm\obj\Debug\A103223013_Midterm.csprojResolveAssemblyReference.cache
+c:\users\w401\documents\visual studio 2013\Projects\A103223013_Midterm\A103223013_Midterm\obj\Debug\A103223013_Midterm.Form1.resources
+c:\users\w401\documents\visual studio 2013\Projects\A103223013_Midterm\A103223013_Midterm\obj\Debug\A103223013_Midterm.Properties.Resources.resources
+c:\users\w401\documents\visual studio 2013\Projects\A103223013_Midterm\A103223013_Midterm\obj\Debug\A103223013_Midterm.csproj.GenerateResource.Cache
+c:\users\w401\documents\visual studio 2013\Projects\A103223013_Midterm\A103223013_Midterm\bin\Debug\A103223013_Midterm.exe
+c:\users\w401\documents\visual studio 2013\Projects\A103223013_Midterm\A103223013_Midterm\bin\Debug\A103223013_Midterm.pdb
+c:\users\w401\documents\visual studio 2013\Projects\A103223013_Midterm\A103223013_Midterm\obj\Debug\A103223013_Midterm.exe
+c:\users\w401\documents\visual studio 2013\Projects\A103223013_Midterm\A103223013_Midterm\obj\Debug\A103223013_Midterm.pdb
